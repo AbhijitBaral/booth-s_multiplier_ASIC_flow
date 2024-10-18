@@ -1,8 +1,8 @@
 # Read the RTL description as a verilog file
-read_verilog iiitb_r2_4bit_bm.v 
+read_verilog boothMultiplierRTL.v 
 
 # Hierarchy and checks
-hierarchy -check -top iiitb_r2_4bit_bm
+hierarchy -check -top boothMultiplier
 
 # Flatten the design if needed 
 flatten 

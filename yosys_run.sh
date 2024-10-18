@@ -1,5 +1,5 @@
 # Read liberty file
-read_liberty -lib /home/yashm98/iiitb_r2_4bit_bm/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+read_liberty -lib /home/geek/Desktop/rtl to gds/Project/booth-s_multiplier_ASIC_flow/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 #Read verilog file
 read_verilog iiitb_r2_4bit_bm.v
@@ -8,7 +8,7 @@ read_verilog iiitb_r2_4bit_bm.v
 synth -top iiitb_r2_4bit_bm
 
 # Physical Cell Mapping
-abc -liberty /home/yashm98/iiitb_r2_4bit_bm/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty /home/geek/Desktop/rtl to gds/Project/booth-s_multiplier_ASIC_flow/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 # Write Post Synthesis verilog file
 write_verilog iiitb_r2_4bit_bm_postsyn.v
