@@ -1,0 +1,14 @@
+# Read the RTL description as a verilog file
+read_verilog iiitb_r2_4bit_bm.v 
+
+# Hierarchy and checks
+hierarchy -check -top iiitb_r2_4bit_bm
+
+# Flatten the design if needed 
+flatten 
+
+# write the RTL level netlist 
+write_verilog -noattr RTL_netlist.v 
+
+show -format svg -prefix simple_module_rtl_schematic
+
