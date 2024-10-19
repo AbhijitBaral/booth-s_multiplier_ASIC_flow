@@ -1,5 +1,5 @@
-digraph "iiitb_r2_4bit_bm" {
-label="iiitb_r2_4bit_bm";
+digraph "boothMultiplier" {
+label="boothMultiplier";
 rankdir="LR";
 remincross=true;
 n55 [ shape=diamond, label="A", color="black", fontcolor="black"];
@@ -51,11 +51,11 @@ c85 [ shape=record, label="{{<p55> A|<p66> B}|$14\n$sub|{<p67> Y}}",  ];
 c86 [ shape=record, label="{{<p55> A|<p66> B}|$20\n$sub|{<p67> Y}}",  ];
 v14 [ label="1'1" ];
 c87 [ shape=record, label="{{<p55> A|<p66> B}|$21\n$sub|{<p67> Y}}",  ];
-p15 [shape=box, style=rounded, label="PROC $22\niiitb_r2_4bit_bm.v:16.13-16.24", ];
-p16 [shape=box, style=rounded, label="PROC $23\niiitb_r2_4bit_bm.v:17.7-17.24", ];
-p17 [shape=box, style=rounded, label="PROC $24\niiitb_r2_4bit_bm.v:18.13-18.28", ];
-p18 [shape=box, style=rounded, label="PROC $25\niiitb_r2_4bit_bm.v:19.13-19.28", ];
-p19 [shape=box, style=rounded, label="PROC $26\niiitb_r2_4bit_bm.v:20.13-20.27", ];
+p15 [shape=box, style=rounded, label="PROC $22\nboothMultiplierRTL.v:16.13-16.24", ];
+p16 [shape=box, style=rounded, label="PROC $23\nboothMultiplierRTL.v:17.7-17.24", ];
+p17 [shape=box, style=rounded, label="PROC $24\nboothMultiplierRTL.v:18.13-18.28", ];
+p18 [shape=box, style=rounded, label="PROC $25\nboothMultiplierRTL.v:19.13-19.28", ];
+p19 [shape=box, style=rounded, label="PROC $26\nboothMultiplierRTL.v:20.13-20.27", ];
 x21 [ shape=record, style=rounded, label="<s0> 0:0 - 0:0 ", color="black", fontcolor="black" ];
 x22 [ shape=record, style=rounded, label="<s1> 3:3 - 3:3 |<s0> 3:1 - 2:0 ", color="black", fontcolor="black" ];
 x23 [ shape=record, style=rounded, label="<s1> 3:3 - 3:3 |<s0> 3:1 - 2:0 ", color="black", fontcolor="black" ];
@@ -64,7 +64,7 @@ x25 [ shape=record, style=rounded, label="<s1> 0:0 - 3:3 |<s0> 3:1 - 2:0 ", colo
 x26 [ shape=record, style=rounded, label="<s1> 0:0 - 3:3 |<s0> 3:1 - 2:0 ", color="black", fontcolor="black" ];
 x27 [ shape=record, style=rounded, label="<s1> 0:0 - 3:3 |<s0> 3:1 - 2:0 ", color="black", fontcolor="black" ];
 x28 [ shape=record, style=rounded, label="<s1> 3:0 - 7:4 |<s0> 3:0 - 3:0 ", color="black", fontcolor="black" ];
-p20 [shape=box, style=rounded, label="PROC $1\niiitb_r2_4bit_bm.v:24.3-72.6", ];
+p20 [shape=box, style=rounded, label="PROC $1\nboothMultiplierRTL.v:24.3-72.6", ];
 n10 [ shape=diamond, label="$1&#9586;P[7:0]" ];
 p20:e -> n10:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
 p20:e -> x28:s0:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];

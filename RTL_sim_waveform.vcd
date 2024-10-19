@@ -1,0 +1,121 @@
+$date
+	Sat Oct 19 11:42:39 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module boothMultiplier_tb $end
+$var wire 8 ! P [7:0] $end
+$var reg 4 " M [3:0] $end
+$var reg 4 # Q [3:0] $end
+$var reg 1 $ clk $end
+$var reg 1 % load $end
+$var reg 1 & reset $end
+$scope module dut $end
+$var wire 4 ' M [3:0] $end
+$var wire 4 ( Q [3:0] $end
+$var wire 1 $ clk $end
+$var wire 1 % load $end
+$var wire 1 & reset $end
+$var reg 4 ) A [3:0] $end
+$var reg 3 * Count [2:0] $end
+$var reg 4 + M_temp [3:0] $end
+$var reg 8 , P [7:0] $end
+$var reg 1 - Q_minus_one $end
+$var reg 4 . Q_temp [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 .
+0-
+bx ,
+b0 +
+b100 *
+b0 )
+b1011 (
+b1010 '
+1&
+0%
+0$
+b1011 #
+b1010 "
+bx !
+$end
+#10000
+b0 !
+b0 ,
+1$
+#20000
+0$
+0&
+1%
+#30000
+b1011 !
+b1011 ,
+b1010 +
+b1011 .
+1$
+#40000
+0$
+0%
+#50000
+b110101 !
+b110101 ,
+b11 *
+b101 .
+1-
+b11 )
+1$
+#60000
+0$
+#70000
+b11010 !
+b11010 ,
+b10 *
+b1 )
+b1010 .
+1$
+#80000
+0$
+#90000
+b11011101 !
+b11011101 ,
+b1 *
+b1101 .
+0-
+b1101 )
+1$
+#100000
+0$
+#110000
+b11110 !
+b11110 ,
+b0 *
+b1110 .
+1-
+b1 )
+1$
+#120000
+0$
+#130000
+1$
+#140000
+0$
+#150000
+1$
+#160000
+0$
+#170000
+1$
+#180000
+0$
+#190000
+1$

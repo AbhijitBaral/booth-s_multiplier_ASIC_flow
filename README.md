@@ -1,4 +1,4 @@
-# iiitb_r2_4bit_bm -> Radix-2 4-Bit Booth's Multiplier
+# Radix-2 4-Bit Booth's Multiplier
 
 ## Description
 
