@@ -74,9 +74,9 @@ The above figure shows the Gate Level simulated wavefrom of the Radix-2 4-Bit Bo
 
 ## Physical Design
 
-### Preperation
+### Preparation
 
-The Physical Design is performed using the OpenLane flow. In order to accomplish it certian preparation has to be done . Copy the `config.json` to the `Openlane/designs/iiitb_r2_4bit_bm` directory. Also copy the `iiitb_r2_4bit_bm.v` , `sky130_vsdinv.lef` , `sky130_fd_sc_hd_fast.lib` , `sky130_fd_sc_hd_slow.lib` and `sky130_fd_sc_hd_typical.lib`  in `Openlane/designs/iiitb_r2_4bit_bm/src`. The contents of the `config.json` file are  
+The Physical Design is performed using the OpenLane flow. In order to accomplish it, certian preparation has to be done . Copy the `config.json` to the `Openlane/designs/iiitb_r2_4bit_bm` directory. Also copy the `iiitb_r2_4bit_bm.v` , `sky130_vsdinv.lef` , `sky130_fd_sc_hd_fast.lib` , `sky130_fd_sc_hd_slow.lib` and `sky130_fd_sc_hd_typical.lib`  in `Openlane/designs/iiitb_r2_4bit_bm/src`. The contents of the `config.json` file are  
 
 ```
 {
